@@ -1,0 +1,8 @@
+   1. create default hello world mvn java app
+   mvn archetype:generate -DgroupId=com.mycompany.app -DartifactId=my-app -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.4 -DinteractiveMode=false
+   mvn package
+   java -cp target/my-app-1.0-SNAPSHOT.jar com.mycompany.app.App
+
+   2. create Dockerfile
+   3. docker build . -t hello.doc
+   4. docker run -it hello.doc

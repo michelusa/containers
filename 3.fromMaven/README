@@ -1,0 +1,4 @@
+1. update pom to include docker maven plugin
+2. update src/main to include Dockerfile
+3. mvn clean package docker:build
+4. mvn docker:run
