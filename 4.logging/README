@@ -1,0 +1,6 @@
+docker build -t cc.doc .
+docker run -d --rm --name cc.cont cc.doc
+docker logs -f cc.doc
+
+
+(the multistage docker build produce an image size of ~6.5 MB)
